@@ -5,7 +5,7 @@ src_cascade = 'cars.xml'
 
 car_cascade = cv2.CascadeClassifier('cars.xml')
 
-djhvbdfhvb
+
 
 
 
