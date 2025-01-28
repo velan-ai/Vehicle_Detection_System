@@ -1,5 +1,7 @@
-src_cascade = 'cars.xml'
+import cv2
+import imutils
 
+src_cascade = 'cars.xml'
 car_cascade = cv2.CascadeClassifier('cars.xml')
 
 # initialising the camera value
