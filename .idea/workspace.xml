@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="feb6c59a-a435-4ed6-9937-ae019368e447" name="Changes" comment="Today's commit on VDS">
+      <change afterPath="$PROJECT_DIR$/PY_FILES/ROUGH_DIR/Trial.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PY_FILES/VDS.py" beforeDir="false" afterPath="$PROJECT_DIR$/PY_FILES/VDS.py" afterDir="false" />
     </list>
@@ -77,7 +78,7 @@
       <option name="presentableId" value="Default" />
       <updated>1738015080786</updated>
       <workItem from="1738015081929" duration="2475000" />
-      <workItem from="1738071974480" duration="3334000" />
+      <workItem from="1738071974480" duration="3509000" />
     </task>
     <task id="LOCAL-00001" summary="Today's commit on VDS">
       <option name="closed" value="true" />
@@ -111,7 +112,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738016478125</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Today's commit on VDS">
+      <option name="closed" value="true" />
+      <created>1738082343662</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1738082343662</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
