@@ -31,7 +31,20 @@ class VDS:
         # Detecting the Vehicle
         veh = self.car_cascade.detectMultiScale(grey, 1.05, 5)
 
-    def identify(self):
+    def identify(self, Car_count):
+
+        if car_count >= self.traffic_threshold:
+            print("Vehicle detected")
+        else:
+            print("Vehicle not detected")
+
+    def Monitor(self):
+        print("Monitoring started")
+
+        while True:
+
+            self.pre_process(self.camera)
+
 
 
 
