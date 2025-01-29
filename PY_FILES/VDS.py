@@ -31,6 +31,7 @@ class VDS:
         # Detecting the Vehicle
         veh = self.car_cascade.detectMultiScale(grey, 1.05, 5)
 
+    def identify(self):
 
 
 
