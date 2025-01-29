@@ -42,16 +42,20 @@ class VDS:
         print("Monitoring started")
 
         while True:
+            frame , car_count = self.pre_process()
 
-            self.pre_process(self.camera)
+            if frame is None:
+                break
+
+            # Displaying the pre-processed frame
+            cv2.imshow("Frame", frame)
+            self.identify(car_count)
 
 
 
 
-
-
-
-
+        self.camera.release()
+        cv2.destroyAllWindows()
 
 
 
