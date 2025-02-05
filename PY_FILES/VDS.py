@@ -51,6 +51,12 @@ class VDS:
             cv2.imshow("Frame", frame)
             self.identify(car_count)
 
+            # Exit function
+            if cv2.waitKey(33) == 27:
+                break
+
+        self.camera.release()
+
 
 
 
