@@ -83,8 +83,3 @@ if __name__ == "__main__":
 
     # Starting the application
     VDS.Monitor()
-
-
-
-
-
