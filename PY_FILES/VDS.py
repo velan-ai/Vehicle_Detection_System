@@ -20,9 +20,15 @@ class VDS:
         if not self.camera.isOpened():
             print("Unable to open camera device")
 
-    def pre_process(self, frame):
+    def pre_process(self):
         # Reading the frame
-        frame = self.camera.read()[1]
+        ret, frame = self.camera.read()
+
+        if not ret:
+            print("Unable to read camera device")
+
+            return None, 0
+
         # Resizing
         frame = imutils.resize(frame, width=self.frame_width)
         # Converting the image into grey color
@@ -30,6 +36,7 @@ class VDS:
 
         # Detecting the Vehicle
         veh = self.car_cascade.detectMultiScale(grey, 1.05, 5)
+        return frame, len(veh)
 
     def identify(self, car_count):
 
@@ -42,7 +49,7 @@ class VDS:
         print("Monitoring started")
 
         while True:
-            frame , car_count = self.pre_process()
+            frame, car_count = self.pre_process()
 
             if frame is None:
                 break
@@ -56,12 +63,26 @@ class VDS:
                 break
 
         self.camera.release()
-
-
-
-
-        self.camera.release()
         cv2.destroyAllWindows()
+
+if __name__ == "__main__":
+    cascade_file = "cars.xml"
+    print("Enter the parameters")
+
+    try:
+        camera_index = int(input("Enter the camera index: "))
+        frame_width = int(input("Enter the frame width: "))
+        traffic_threshold = int(input("Enter the traffic threshold: "))
+    except ValueError:
+        print("Invalid input")
+        exit()
+
+
+    # Initializing the traffic Monitor
+    VDS = VDS(cascade_file, camera_index, frame_width, traffic_threshold)
+
+    # Starting the application
+    VDS.Monitor()
 
 
 
