@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="feb6c59a-a435-4ed6-9937-ae019368e447" name="Changes" comment="function update">
+    <list default="true" id="feb6c59a-a435-4ed6-9937-ae019368e447" name="Changes" comment="Renamed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PY_FILES/VDS_001.py" beforeDir="false" afterPath="$PROJECT_DIR$/PY_FILES/VDS_001.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +80,7 @@
       <workItem from="1738015081929" duration="2475000" />
       <workItem from="1738071974480" duration="4216000" />
       <workItem from="1738188763394" duration="626000" />
-      <workItem from="1738753209820" duration="2622000" />
+      <workItem from="1738753209820" duration="3373000" />
     </task>
     <task id="LOCAL-00001" summary="Today's commit on VDS">
       <option name="closed" value="true" />
@@ -211,7 +210,23 @@
       <option name="project" value="LOCAL" />
       <updated>1738760065306</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Renamed">
+      <option name="closed" value="true" />
+      <created>1738760140734</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1738760140734</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Renamed">
+      <option name="closed" value="true" />
+      <created>1738760272461</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1738760272461</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,7 +235,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Today's commit on VDS" />
     <MESSAGE value="function update" />
-    <option name="LAST_COMMIT_MESSAGE" value="function update" />
+    <MESSAGE value="Renamed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Renamed" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Vehicle_Detection_System$VDS.coverage" NAME="VDS Coverage Results" MODIFIED="1738759866236" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PY_FILES" />

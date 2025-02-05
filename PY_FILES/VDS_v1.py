@@ -70,9 +70,9 @@ if __name__ == "__main__":
     print("Enter the parameters")
 
     try:
-        camera_index = int(input("Enter the camera index: "))
-        frame_width = int(input("Enter the frame width: "))
-        traffic_threshold = int(input("Enter the traffic threshold: "))
+        camera_index = int(input("Enter the camera index ('0' OR '1'): "))
+        frame_width = int(input("Enter the frame width (600 OR 1200) : "))
+        traffic_threshold = int(input("Enter the traffic threshold (1,2,3,4,5): "))
     except ValueError:
         print("Invalid input")
         exit()
