@@ -36,7 +36,7 @@ class VDS:
 
         # Detecting the Vehicle
         veh = self.car_cascade.detectMultiScale(grey, 1.05, 5)
-        return frame, len(veh)
+        return frame, veh
 
     def identify(self, car_count):
 
@@ -49,14 +49,17 @@ class VDS:
         print("Monitoring started")
 
         while True:
-            frame, car_count = self.pre_process()
+            frame, veh = self.pre_process()
 
             if frame is None:
                 break
 
+            for (x, y, w, h) in veh:
+                cv2.rectangle(frame, (x, y), (x + w, y + h), (0, 0, 255), 2)
+
             # Displaying the pre-processed frame
             cv2.imshow("Frame", frame)
-            self.identify(car_count)
+            self.identify(len(veh))
 
             # Exit function
             if cv2.waitKey(33) == 27:

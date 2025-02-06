@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="feb6c59a-a435-4ed6-9937-ae019368e447" name="Changes" comment="Renamed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PY_FILES/VDS_v1.py" beforeDir="false" afterPath="$PROJECT_DIR$/PY_FILES/VDS_v1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,11 +49,13 @@
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Python.VDS.executor": "Run",
     "Python.VDS_001.executor": "Run",
+    "Python.VDS_v1.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "G:/Pycharm_directory/Vehicle_Detection_System",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -81,6 +84,7 @@
       <workItem from="1738071974480" duration="4216000" />
       <workItem from="1738188763394" duration="626000" />
       <workItem from="1738753209820" duration="3373000" />
+      <workItem from="1738852189527" duration="703000" />
     </task>
     <task id="LOCAL-00001" summary="Today's commit on VDS">
       <option name="closed" value="true" />
@@ -239,6 +243,7 @@
     <option name="LAST_COMMIT_MESSAGE" value="Renamed" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Vehicle_Detection_System$VDS_v1.coverage" NAME="VDS_v1 Coverage Results" MODIFIED="1738852685687" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PY_FILES" />
     <SUITE FILE_PATH="coverage/Vehicle_Detection_System$VDS.coverage" NAME="VDS Coverage Results" MODIFIED="1738759866236" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PY_FILES" />
     <SUITE FILE_PATH="coverage/Vehicle_Detection_System$VDS_001.coverage" NAME="VDS_001 Coverage Results" MODIFIED="1738760090389" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PY_FILES" />
   </component>
