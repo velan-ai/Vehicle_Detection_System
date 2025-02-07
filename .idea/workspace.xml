@@ -84,7 +84,7 @@
       <workItem from="1738071974480" duration="4216000" />
       <workItem from="1738188763394" duration="626000" />
       <workItem from="1738753209820" duration="3373000" />
-      <workItem from="1738852189527" duration="703000" />
+      <workItem from="1738852189527" duration="1906000" />
     </task>
     <task id="LOCAL-00001" summary="Today's commit on VDS">
       <option name="closed" value="true" />
@@ -230,7 +230,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738760272461</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Renamed">
+      <option name="closed" value="true" />
+      <created>1738855507922</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1738855507922</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
